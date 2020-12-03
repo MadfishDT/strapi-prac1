@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "informations",
+  "collectionName": "tasks",
   "info": {
-    "name": "informations"
+    "name": "task"
   },
   "options": {
     "increments": true,
@@ -10,6 +10,9 @@
   },
   "attributes": {
     "name": {
+      "type": "string"
+    },
+    "desc": {
       "type": "string"
     }
   }

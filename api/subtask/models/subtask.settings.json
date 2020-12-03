@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "tasks",
+  "collectionName": "subtasks",
   "info": {
-    "name": "task"
+    "name": "subtask"
   },
   "options": {
     "increments": true,
@@ -14,9 +14,6 @@
     },
     "desc": {
       "type": "string"
-    },
-    "subtasks": {
-      "collection": "subtask"
     }
   }
 }
